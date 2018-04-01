@@ -19,156 +19,206 @@ function init() {
     // How you would like to style the map.
     // This is where you would paste any style found on Snazzy Maps.
     styles: [{
-        "featureType": "water",
-        "elementType": "geometry.fill",
+        "featureType": "administrative",
+        "elementType": "all",
         "stylers": [{
-          "color": "#d3d3d3"
+          "visibility": "off"
         }]
-      },
-      {
-        "featureType": "transit",
-        "stylers": [{
-            "color": "#808080"
-          },
-          {
-            "visibility": "off"
-          }
-        ]
-      },
-      {
-        "featureType": "road.highway",
-        "elementType": "geometry.stroke",
-        "stylers": [{
-            "visibility": "on"
-          },
-          {
-            "color": "#b3b3b3"
-          }
-        ]
-      },
-      {
-        "featureType": "road.highway",
-        "elementType": "geometry.fill",
-        "stylers": [{
-          "color": "#ffffff"
-        }]
-      },
-      {
-        "featureType": "road.local",
-        "elementType": "geometry.fill",
-        "stylers": [{
-            "visibility": "on"
-          },
-          {
-            "color": "#ffffff"
-          },
-          {
-            "weight": 1.8
-          }
-        ]
-      },
-      {
-        "featureType": "road.local",
-        "elementType": "geometry.stroke",
-        "stylers": [{
-          "color": "#d7d7d7"
-        }]
-      },
-      {
-        "featureType": "poi",
-        "elementType": "geometry.fill",
-        "stylers": [{
-            "visibility": "on"
-          },
-          {
-            "color": "#ebebeb"
-          }
-        ]
       },
       {
         "featureType": "administrative",
-        "elementType": "geometry",
+        "elementType": "geometry.stroke",
         "stylers": [{
-          "color": "#a7a7a7"
+          "visibility": "on"
         }]
       },
       {
-        "featureType": "road.arterial",
-        "elementType": "geometry.fill",
+        "featureType": "administrative",
+        "elementType": "labels",
         "stylers": [{
-          "color": "#ffffff"
-        }]
+            "visibility": "on"
+          },
+          {
+            "color": "#716464"
+          },
+          {
+            "weight": "0.01"
+          }
+        ]
       },
       {
-        "featureType": "road.arterial",
-        "elementType": "geometry.fill",
+        "featureType": "administrative.country",
+        "elementType": "labels",
         "stylers": [{
-          "color": "#ffffff"
+          "visibility": "on"
         }]
       },
       {
         "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [{
+          "visibility": "simplified"
+        }]
+      },
+      {
+        "featureType": "landscape.natural",
+        "elementType": "geometry",
+        "stylers": [{
+          "visibility": "simplified"
+        }]
+      },
+      {
+        "featureType": "landscape.natural.landcover",
+        "elementType": "geometry",
+        "stylers": [{
+          "visibility": "simplified"
+        }]
+      },
+      {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [{
+          "visibility": "simplified"
+        }]
+      },
+      {
+        "featureType": "poi",
         "elementType": "geometry.fill",
         "stylers": [{
-            "visibility": "on"
-          },
-          {
-            "color": "#efefef"
-          }
-        ]
-      },
-      {
-        "featureType": "road",
-        "elementType": "labels.text.fill",
-        "stylers": [{
-          "color": "#696969"
-        }]
-      },
-      {
-        "featureType": "administrative",
-        "elementType": "labels.text.fill",
-        "stylers": [{
-            "visibility": "on"
-          },
-          {
-            "color": "#737373"
-          }
-        ]
-      },
-      {
-        "featureType": "poi",
-        "elementType": "labels.icon",
-        "stylers": [{
-          "visibility": "off"
+          "visibility": "simplified"
         }]
       },
       {
         "featureType": "poi",
-        "elementType": "labels",
-        "stylers": [{
-          "visibility": "off"
-        }]
-      },
-      {
-        "featureType": "road.arterial",
         "elementType": "geometry.stroke",
         "stylers": [{
-          "color": "#d6d6d6"
+          "visibility": "simplified"
+        }]
+      },
+      {
+        "featureType": "poi",
+        "elementType": "labels.text",
+        "stylers": [{
+          "visibility": "simplified"
+        }]
+      },
+      {
+        "featureType": "poi",
+        "elementType": "labels.text.fill",
+        "stylers": [{
+          "visibility": "simplified"
+        }]
+      },
+      {
+        "featureType": "poi",
+        "elementType": "labels.text.stroke",
+        "stylers": [{
+          "visibility": "simplified"
+        }]
+      },
+      {
+        "featureType": "poi.attraction",
+        "elementType": "geometry",
+        "stylers": [{
+          "visibility": "on"
         }]
       },
       {
         "featureType": "road",
-        "elementType": "labels.icon",
+        "elementType": "all",
+        "stylers": [{
+          "visibility": "on"
+        }]
+      },
+      {
+        "featureType": "road.highway",
+        "elementType": "all",
         "stylers": [{
           "visibility": "off"
         }]
       },
-      {},
       {
-        "featureType": "poi",
+        "featureType": "road.highway",
+        "elementType": "geometry",
+        "stylers": [{
+          "visibility": "on"
+        }]
+      },
+      {
+        "featureType": "road.highway",
         "elementType": "geometry.fill",
         "stylers": [{
-          "color": "#dadada"
+          "visibility": "on"
+        }]
+      },
+      {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [{
+            "visibility": "simplified"
+          },
+          {
+            "color": "#a05519"
+          },
+          {
+            "saturation": "-13"
+          }
+        ]
+      },
+      {
+        "featureType": "road.local",
+        "elementType": "all",
+        "stylers": [{
+          "visibility": "on"
+        }]
+      },
+      {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [{
+          "visibility": "simplified"
+        }]
+      },
+      {
+        "featureType": "transit",
+        "elementType": "geometry",
+        "stylers": [{
+          "visibility": "simplified"
+        }]
+      },
+      {
+        "featureType": "transit.station",
+        "elementType": "geometry",
+        "stylers": [{
+          "visibility": "on"
+        }]
+      },
+      {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [{
+            "visibility": "simplified"
+          },
+          {
+            "color": "#84afa3"
+          },
+          {
+            "lightness": 52
+          }
+        ]
+      },
+      {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [{
+          "visibility": "on"
+        }]
+      },
+      {
+        "featureType": "water",
+        "elementType": "geometry.fill",
+        "stylers": [{
+          "visibility": "on"
         }]
       }
     ]
@@ -183,12 +233,12 @@ function init() {
 
   // Let's also add a marker while we're at it
   var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(21.170240, 72.831061),
+    position: new google.maps.LatLng(39.010101, -77.753608),
     map: map,
-    title: 'Nileforest',
+    title: 'Silver Moth Studio Map',
+    animation: google.maps.Animation.DROP,
     icon: 'img/map-marker.png'
-
   });
 
 
-};
+}
